@@ -6,14 +6,31 @@
 
 ```scss
 /* Fonts Mixins*/
-@mixin Spongition($fz, $fw, $lh: auto /* Optional */, $upcase: false /* Optional */) {
+@mixin Spongition(
+  $fz,
+  $fw,
+  $lh: auto /* Optional */,
+  $upcase: false /* Optional */
+) {
 }
 
-@mixin Montserrat($fz, $fw, $upcase: false /* Optional */) {
+@mixin Montserrat(
+  $fz,
+  $fw,
+  $upcase: false /* Optional */
+) {
 }
 
 /*Button Mixin*/
-@mixin Button($round: 0 /* Optional */, $py: 0px /* Optional */, $px: 0px /* Optional */, $fz: 0 /* Optional */, $fw: 0 /* Optional */, $lh: auto /* Optional */, $upcase: false /* Optional */) {
+@mixin Button(
+  $round: 0 /* Optional */,
+  $py: 0px /* Optional */,
+  $px: 0px /* Optional */,
+  $fz: 0 /* Optional */,
+  $fw: 0 /* Optional */,
+  $lh: auto /* Optional */,
+  $upcase: false /* Optional */
+) {
   @include Spongition($fz, $fw, $lh, $upcase);
 }
 ```
