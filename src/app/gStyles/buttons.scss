@@ -2,6 +2,7 @@
   color: var(--bg-color);
   background-color: var(--accent-color);
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 12px;
   transition: all 0.4s ease-in-out;
@@ -30,6 +31,10 @@
 
 .btn-main {
   @include Button(8px, 24px, 65px, 20px, 500, 110%, $upcase: true);
+}
+
+.btn-social-icon {
+  @include Button(8px, 16px, 24px, 18px, 500, 110%);
 }
 
 /* Media */

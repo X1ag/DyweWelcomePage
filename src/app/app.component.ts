@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { MetricsComponent } from './components/metrics/metrics.component';
 import { NavMobileComponent } from './components/nav-mobile/nav-mobile.component';
+import { SocialComponent } from './components/social/social.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { NavMobileComponent } from './components/nav-mobile/nav-mobile.component
     NavMobileComponent,
     MainComponent,
     MetricsComponent,
+    SocialComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

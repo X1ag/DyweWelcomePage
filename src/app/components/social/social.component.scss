@@ -1,0 +1,75 @@
+.social {
+  &__content {
+    position: relative;
+    border: 2px solid var(--border2-color);
+    border-radius: 24px;
+    padding: 79px 0px 70px 100px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgb(10, 10, 20);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(10, 10, 20, 1) 0%,
+      rgba(20, 20, 20, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(10, 10, 20, 1) 0%,
+      rgba(20, 20, 20, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(10, 10, 20, 1) 0%,
+      rgba(20, 20, 20, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a0a14",endColorstr="#141414",GradientType=1);
+    &-info {
+      max-width: 630px;
+      &-h3 {
+      }
+      &-text {
+      }
+      &-buttons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      &-button {
+      }
+    }
+    &-image {
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+  }
+}
+
+@media (max-width: 1230px) {
+  .social__content-image {
+    display: none;
+  }
+}
+
+@media (max-width: 830px) {
+  .social__content {
+    padding: 79px 50px 70px 50px;
+  }
+}
+
+@media (max-width: 630px) {
+  .social__content {
+    padding: 79px 50px 70px 50px;
+  }
+
+  .social__content-info-buttons {
+    flex-direction: column;
+  }
+
+  .social__content-info-button {
+    width: 100%;
+  }
+}
