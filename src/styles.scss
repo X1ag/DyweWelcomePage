@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "@gStyles/mixins.scss", "@gStyles/idents.scss", "@gStyles/fonts.scss",
-  "@gStyles/buttons.scss", "@gStyles/container.scss";
+  "@gStyles/buttons.scss", "@gStyles/container.scss", "@gStyles/colors.scss";
 
 @font-face {
   font-family: "Spongition";
@@ -174,4 +174,8 @@ body {
 
 .no-scroll {
   overflow: hidden;
+}
+
+.span-green {
+  color: var(--accent-color);
 }
