@@ -1,6 +1,8 @@
 @import "@gStyles/mixins.scss";
 
 .header {
+  margin-bottom: 140px;
+
   &__content {
     display: flex;
     align-items: center;
@@ -86,6 +88,9 @@
 }
 
 @media (max-width: 830px) {
+  .header {
+    margin-bottom: 70px;
+  }
   .header__navigation {
     display: none;
   }

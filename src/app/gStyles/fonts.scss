@@ -11,3 +11,50 @@
 .nav-link-mob {
   @include Montserrat(28px, 400, $upcase: true);
 }
+
+.h1,
+.h1 span {
+  @include Spongition(80px, 400, 100%, $upcase: true);
+}
+
+.M-r-28 {
+  @include Montserrat(28px, 400);
+}
+
+.S-u-80 {
+  @include Spongition(80px, 400, $upcase: true);
+}
+
+/* Media */
+
+@media (max-width: 1430px) {
+  .h1,
+  .h1 span {
+    @include Spongition(72px, 400, 100%, $upcase: true);
+  }
+}
+
+@media (max-width: 1230px) {
+  .h1,
+  .h1 span {
+    @include Spongition(68px, 400, 100%, $upcase: true);
+  }
+}
+
+@media (max-width: 1030px) {
+  .h1,
+  .h1 span {
+    @include Spongition(56px, 400, 100%, $upcase: true);
+  }
+}
+
+@media (max-width: 630px) {
+  .h1,
+  .h1 span {
+    @include Spongition(44px, 400, 100%, $upcase: true);
+  }
+
+  .M-r-28 {
+    @include Montserrat(20px, 400);
+  }
+}

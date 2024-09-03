@@ -23,3 +23,31 @@
 .btn-social {
   @include Button(50%, 11px, 10.4px);
 }
+
+.btn-social-main {
+  @include Button(50%, 18px, 18px);
+}
+
+.btn-main {
+  @include Button(8px, 24px, 65px, 20px, 500, 110%, $upcase: true);
+}
+
+/* Media */
+
+@media (max-width: 1030px) {
+  .btn-social-main {
+    @include Button(50%, 12px, 12px);
+  }
+}
+
+@media (max-width: 630px) {
+  .btn-social-main {
+    @include Button(50%, 8px, 8px);
+  }
+}
+
+@media (max-width: 430px) {
+  .btn-main {
+    @include Button(8px, 24px, 45px, 20px, 500, 110%, $upcase: true);
+  }
+}
