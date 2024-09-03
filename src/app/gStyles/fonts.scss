@@ -17,12 +17,29 @@
   @include Spongition(80px, 400, 100%, $upcase: true);
 }
 
+.h2,
+.h2 span {
+  @include Spongition(60px, 600, 90%, $upcase: true);
+}
+
 .M-r-28 {
   @include Montserrat(28px, 400);
 }
 
 .S-u-80 {
   @include Spongition(80px, 400, $upcase: true);
+}
+
+.S-r-52 {
+  @include Spongition(52px, 400, 90%);
+}
+
+.S-ru-48 {
+  @include Spongition(48px, 400, 110%, $upcase: true);
+}
+
+.S-r-32 {
+  @include Spongition(32px, 400, 90%);
 }
 
 /* Media */
@@ -52,6 +69,11 @@
   .h1,
   .h1 span {
     @include Spongition(44px, 400, 100%, $upcase: true);
+  }
+
+  .h2,
+  .h2 span {
+    @include Spongition(52px, 600, 100%, $upcase: true);
   }
 
   .M-r-28 {

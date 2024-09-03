@@ -1,3 +1,12 @@
 .text-50 {
   color: rgba(246, 244, 235, 0.5);
 }
+
+.color-main,
+.span-green {
+  color: var(--accent-color);
+}
+
+.color-violet {
+  color: var(--violet-color);
+}

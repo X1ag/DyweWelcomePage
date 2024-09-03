@@ -1,0 +1,27 @@
+.metrics {
+  &__content {
+  }
+  &__content-h2 {
+    text-align: center;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(280px, 330px));
+    grid-template-rows: repeat(1, 200px);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .metrics__grid {
+    grid-template-columns: repeat(2, minmax(280px, 480px));
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+
+@media (max-width: 630px) {
+  .metrics__grid {
+    grid-template-columns: repeat(1, minmax(280px, 380px));
+    grid-template-rows: repeat(4, 200px);
+  }
+}
