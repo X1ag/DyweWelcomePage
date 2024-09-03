@@ -1,0 +1,40 @@
+/* Fonts Mixins*/
+@mixin Spongition(
+  $fz,
+  $fw,
+  $lh: auto /* Optional */,
+  $upcase: false /* Optional */
+) {
+  font-family: "Spongition", sans-serif;
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+  @if $upcase {
+    text-transform: uppercase;
+  }
+}
+
+@mixin Montserrat($fz, $fw, $upcase: false /* Optional */) {
+  font-family: "Montserrat", sans-serif;
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: 130%;
+  @if $upcase {
+    text-transform: uppercase;
+  }
+}
+
+/*Button Mixin*/
+@mixin Button(
+  $round: 0 /* Optional */,
+  $py: 0px /* Optional */,
+  $px: 0px /* Optional */,
+  $fz: 0 /* Optional */,
+  $fw: 0 /* Optional */,
+  $lh: auto /* Optional */,
+  $upcase: false /* Optional */
+) {
+  @include Spongition($fz, $fw, $lh, $upcase);
+  padding: $py $px;
+  border-radius: $round;
+}

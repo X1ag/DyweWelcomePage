@@ -1,0 +1,25 @@
+.button {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--border2-color);
+  transform: scale(1.05);
+}
+
+.btn-header {
+  @include Button(58px, 18px, 46px, 16px, 500, 110%, $upcase: true);
+}
+
+.btn-header p {
+  @include Spongition(16px, 500, 110%, $upcase: true);
+}
+
+.btn-social {
+  @include Button(50%, 11px, 10.4px);
+}
