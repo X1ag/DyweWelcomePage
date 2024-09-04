@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
 import { MetricsComponent } from './components/metrics/metrics.component';
 import { NavMobileComponent } from './components/nav-mobile/nav-mobile.component';
+import { RoadmapComponent } from './components/roadmap/roadmap.component';
 import { SocialComponent } from './components/social/social.component';
 
 @Component({
@@ -22,6 +23,7 @@ import { SocialComponent } from './components/social/social.component';
     FaqComponent,
     FooterComponent,
     AboutComponent,
+    RoadmapComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

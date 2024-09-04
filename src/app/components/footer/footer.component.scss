@@ -53,3 +53,10 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 430px) {
+  .footer__content-grid {
+    grid-template-columns: repeat(1, minmax(120px, 280px));
+    grid-template-rows: repeat(4, minmax(180px, 140px));
+  }
+}

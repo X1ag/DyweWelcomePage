@@ -7,7 +7,7 @@
   &__grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(380px, 480px));
-    grid-template-rows: repeat(16, 50px);
+    grid-template-rows: repeat(12, 50px);
     gap: 20px;
     &-item {
       cursor: pointer;
@@ -415,7 +415,7 @@
 @media (max-width: 1430px) {
   .about__grid {
     grid-template-columns: repeat(2, minmax(380px, 580px));
-    grid-template-rows: repeat(21, 50px);
+    grid-template-rows: repeat(16, 50px);
   }
 
   .mini-app {

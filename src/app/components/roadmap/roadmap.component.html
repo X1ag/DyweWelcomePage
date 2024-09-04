@@ -1,0 +1,14 @@
+<section class="roadmap mb-300">
+  <div class="roadmap__content">
+    <h2 class="roadmap__content-h2 h2 mb-60">Roadmap</h2>
+    <div class="roadmap__container">
+      @for(item of items; track item.content){
+      <app-roadmap-item
+        dateStr="{{ item.dateStr }}"
+        content="{{ item.content }}"
+        isComplete="{{ item.isComplete }}"
+      />
+      }
+    </div>
+  </div>
+</section>

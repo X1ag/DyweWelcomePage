@@ -53,6 +53,15 @@
   @include Montserrat(28px, 400);
 }
 
+.M-b-28 {
+  @include Montserrat(28px, 600);
+}
+
+.M-bi-24 {
+  @include Montserrat(24px, 600);
+  font-style: italic;
+}
+
 .S-u-80 {
   @include Spongition(80px, 400, $upcase: true);
 }
@@ -143,9 +152,23 @@
   .S-r-42 {
     @include Spongition(36px, 400, 90%);
   }
+
+  .M-bi-24 {
+    @include Montserrat(20px, 600);
+    font-style: italic;
+  }
+
+  .M-b-28 {
+    @include Montserrat(20px, 600);
+  }
 }
 
 @media (max-width: 430px) {
+  .h2,
+  .h2 span {
+    @include Spongition(46px, 600, 100%, $upcase: true);
+  }
+
   .h3-u,
   .h3-u span {
     @include Spongition(38px, 400, 90%, $upcase: true);

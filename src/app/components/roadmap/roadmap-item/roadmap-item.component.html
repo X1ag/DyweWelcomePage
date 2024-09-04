@@ -1,0 +1,19 @@
+<div class="roadmap__item">
+  <div class="roadmap__item-date">
+    <p
+      class="roadmap__item-date-text M-bi-24"
+      [ngClass]="isComplete === 'soon' ? 'text-50' : 'text-color'"
+    >
+      {{ dateStr }}
+    </p>
+    <div class="roadmap__item-date-status {{ isComplete }}">
+      <div class="roadmap__item-date-status-round"></div>
+    </div>
+  </div>
+  <p
+    class="roadmap__item-task M-b-28"
+    [ngClass]="isComplete === 'soon' ? 'text-50' : 'text-color'"
+  >
+    {{ content }}
+  </p>
+</div>
