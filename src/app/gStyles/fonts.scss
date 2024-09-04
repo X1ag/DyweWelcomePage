@@ -37,6 +37,10 @@
   @include Spongition(32px, 600, 90%);
 }
 
+.M-r-14 {
+  @include Montserrat(14px, 400);
+}
+
 .M-r-16 {
   @include Montserrat(16px, 400);
 }
@@ -63,6 +67,10 @@
 
 .S-r-32 {
   @include Spongition(32px, 400, 90%);
+}
+
+.S-b-20 {
+  @include Spongition(20px, 600, 90%);
 }
 
 /* Media */
