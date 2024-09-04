@@ -1,0 +1,24 @@
+.faq-item {
+  padding: 24px;
+  border: 1px solid var(--border3-color);
+  border-radius: 12px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-h4 {
+      max-width: 80%;
+      text-wrap: wrap;
+    }
+
+    &-arrow {
+      transform: rotate(180deg);
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
+.faq-item.active .faq-item__header-arrow {
+  transform: rotate(360deg);
+}

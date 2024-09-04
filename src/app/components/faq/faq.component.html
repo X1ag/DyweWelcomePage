@@ -1,0 +1,27 @@
+<section class="faq mb-140">
+  <div class="faq__content">
+    <h3 class="faq__content-h3 h3-u mb-40">HAVE QUESTIOnS?</h3>
+    <div class="faq__flex">
+      <div class="faq__content-images">
+        <picture class="faq__content-images-pictures">
+          <source
+            media="(max-width: 1230px)"
+            srcset="./assets/png/faq-img-1230.png"
+          />
+          <img src="./assets/png/faq-img.png" alt="Graphic" />
+        </picture>
+      </div>
+      <div class="faq__content-faqs-block">
+        @for(item of faqItems; track item.title; let i = $index;){
+        <app-faq-item
+          [isActive]="activeIndex === i"
+          [title]="item.title"
+          [content]="item.content"
+          (click)="setActive(i)"
+        >
+        </app-faq-item>
+        }
+      </div>
+    </div>
+  </div>
+</section>
