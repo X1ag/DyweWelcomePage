@@ -1,5 +1,5 @@
 <article class="faq-item" [ngClass]="{ active: isActive }">
-  <div class="faq-item__header" [ngClass]="{ 'mb-14': isActive }">
+  <div class="faq-item__header">
     <h4 class="faq-item__header-h4 h4">{{ title }}</h4>
     <img
       class="faq-item__header-arrow"
@@ -7,7 +7,7 @@
       alt="Arrow"
     />
   </div>
-  <div class="faq-item__body" *ngIf="isActive">
+  <div class="faq-item__body">
     <p class="faq-item__body-content M-r-16">{{ content }}</p>
   </div>
 </article>

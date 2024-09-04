@@ -65,6 +65,10 @@
   @include Spongition(48px, 400, 110%, $upcase: true);
 }
 
+.S-r-42 {
+  @include Spongition(42px, 400, 90%);
+}
+
 .S-r-32 {
   @include Spongition(32px, 400, 90%);
 }
