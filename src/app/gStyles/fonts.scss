@@ -70,6 +70,10 @@
   @include Spongition(52px, 400, 90%);
 }
 
+.S-ru-52 {
+  @include Spongition(52px, 400, 90%, $upcase: true);
+}
+
 .S-ru-48 {
   @include Spongition(48px, 400, 110%, $upcase: true);
 }
@@ -160,6 +164,10 @@
 
   .M-b-28 {
     @include Montserrat(20px, 600);
+  }
+
+  .S-ru-52 {
+    @include Spongition(36px, 400, 90%, $upcase: true);
   }
 }
 
