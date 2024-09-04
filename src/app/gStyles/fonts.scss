@@ -139,6 +139,10 @@
   .M-r-24 {
     @include Montserrat(18px, 400);
   }
+
+  .S-r-42 {
+    @include Spongition(36px, 400, 90%);
+  }
 }
 
 @media (max-width: 430px) {
