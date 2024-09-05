@@ -12,11 +12,19 @@ export class FaqItemComponent {
   @Input() isActive: boolean = false;
   @Input() title!: string;
   @Input() content!: string;
+  @Input() transformX!: string;
 
   @Output() click = new EventEmitter<void>();
 
-  toggleActive() {
+  public toggleActive() {
     this.isActive = !this.isActive;
     this.click.emit();
+  }
+
+  public setClass() {
+    return {
+      active: this.isActive,
+      [`faq-${this.transformX}`]: !!this.transformX, // Добавление динамического класса
+    };
   }
 }

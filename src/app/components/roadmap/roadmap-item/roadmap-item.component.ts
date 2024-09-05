@@ -12,4 +12,9 @@ export class RoadmapItemComponent {
   @Input() dateStr: string = '';
   @Input() isComplete: string = 'soon';
   @Input() content: string = '';
+  @Input() transformY: string = '';
+
+  public setClass() {
+    return this.transformY ? 'roadmap__item-' + this.transformY : '';
+  }
 }

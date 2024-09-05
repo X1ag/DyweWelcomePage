@@ -168,10 +168,27 @@ legend {
 
 /* Body Global*/
 body {
+  overflow-x: hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
 .no-scroll {
   overflow: hidden;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.h2-y {
+  transform: translateY(50px);
+}
+
+.x300minus {
+  transform: translateX(-300px);
+}
+
+.x300 {
+  transform: translateX(300px);
 }

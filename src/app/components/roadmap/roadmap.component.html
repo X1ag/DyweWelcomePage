@@ -1,12 +1,13 @@
 <section class="roadmap mb-300">
   <div class="roadmap__content">
-    <h2 class="roadmap__content-h2 h2 mb-60">Roadmap</h2>
-    <div class="roadmap__container">
+    <h2 class="roadmap__content-h2 opacity-0 h2-y h2 mb-60">Roadmap</h2>
+    <div class="roadmap__container opacity-0">
       @for(item of items; track item.content){
       <app-roadmap-item
         dateStr="{{ item.dateStr }}"
         content="{{ item.content }}"
         isComplete="{{ item.isComplete }}"
+        transformY="{{ item.transformY }}"
       />
       }
     </div>

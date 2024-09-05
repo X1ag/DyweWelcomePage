@@ -13,7 +13,7 @@
       cursor: pointer;
       border-radius: 14px;
       padding: 40px;
-      transition: all 0.3s ease-in-out;
+      transition: all 0.7s ease-in-out;
 
       &-text {
         display: flex;
@@ -26,10 +26,16 @@
       }
 
       &:hover {
-        transform: scale(1.02);
+        transform: scale(2.02);
       }
     }
   }
+}
+
+.about-item-anim {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1.4s ease-in-out;
 }
 
 /* MINI-APP */

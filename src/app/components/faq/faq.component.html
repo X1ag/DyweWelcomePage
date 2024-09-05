@@ -1,8 +1,8 @@
 <section class="faq mb-300">
   <div class="faq__content">
-    <h3 class="faq__content-h3 h3-u mb-40">HAVE QUESTIOnS?</h3>
+    <h3 class="faq__content-h3 h2-y opacity-0 h3-u mb-40">HAVE QUESTIOnS?</h3>
     <div class="faq__flex">
-      <div class="faq__content-images">
+      <div class="faq__content-images opacity-0 x300minus">
         <picture class="faq__content-images-pictures">
           <source
             media="(max-width: 1230px)"
@@ -17,6 +17,7 @@
           [isActive]="activeIndex === i"
           [title]="item.title"
           [content]="item.content"
+          [transformX]="item.trasformX"
           (click)="setActive(i)"
         >
         </app-faq-item>

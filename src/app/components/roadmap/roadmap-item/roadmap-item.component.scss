@@ -60,6 +60,41 @@
   }
 }
 
+.roadmap__item-70 {
+  transform: translateY(70px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-140 {
+  transform: translateY(140px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-210 {
+  transform: translateY(210px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-280 {
+  transform: translateY(280px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-350 {
+  transform: translateY(350px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-420 {
+  transform: translateY(420px);
+  transition: all 1.4s ease-in-out;
+}
+
+.roadmap__item-490 {
+  transform: translateY(490px);
+  transition: all 1.4s ease-in-out;
+}
+
 @media (max-width: 630px) {
   .roadmap__item-date-text {
     width: 90px;
