@@ -30,7 +30,7 @@ export class AboutComponent implements AfterViewInit {
       gsap.to('.about__grid', {
         y: '0px',
         opacity: '1',
-        duration: 0.7,
+        duration: 0.5,
         ease: 'elastic.inOut',
         scrollTrigger: {
           trigger: '.about',
