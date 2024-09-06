@@ -168,9 +168,13 @@ legend {
 
 /* Body Global*/
 body {
-  overflow-x: hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 .no-scroll {

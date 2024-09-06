@@ -5,6 +5,9 @@
     }
   }
   &__grid {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: transform 1.4s ease-in-out, opacity 1.4s ease-in-out;
     display: grid;
     grid-template-columns: repeat(3, minmax(380px, 480px));
     grid-template-rows: repeat(12, 50px);
@@ -26,16 +29,10 @@
       }
 
       &:hover {
-        transform: scale(2.02);
+        transform: scale(1.03);
       }
     }
   }
-}
-
-.about-item-anim {
-  opacity: 0;
-  transform: translateY(100px);
-  transition: all 1.4s ease-in-out;
 }
 
 /* MINI-APP */
@@ -290,6 +287,7 @@
   filter: blur(100px);
 }
 
+/* Positiotn */
 .position {
   display: flex;
   flex-direction: column;
@@ -352,6 +350,7 @@
   filter: blur(150px);
 }
 
+/* Liquidity */
 .liquidity {
   position: relative;
   z-index: 1;

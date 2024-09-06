@@ -1,7 +1,7 @@
 @import "@gStyles/mixins.scss";
 
 .header {
-  animation: headerAnim 0.7s ease-in-out forwards;
+  animation: headerAnim 0.7s ease-in-out;
   margin-bottom: 140px;
 
   &__content {

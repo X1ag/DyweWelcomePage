@@ -27,15 +27,15 @@ export class AboutComponent implements AfterViewInit {
           scrub: 1,
         },
       });
-      gsap.to('.about-item-anim', {
+      gsap.to('.about__grid', {
         y: '0px',
         opacity: '1',
         duration: 0.7,
         ease: 'elastic.inOut',
         scrollTrigger: {
           trigger: '.about',
-          start: 'top 70%',
-          end: 'top 65%',
+          start: 'top 90%',
+          end: 'top 85%',
           scrub: 1,
         },
       });
