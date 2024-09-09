@@ -29,6 +29,8 @@
   position: relative;
   .functionality__card-info,
   .functionality__card-bg {
+    user-select: none;
+
     opacity: 0.3;
   }
 }
