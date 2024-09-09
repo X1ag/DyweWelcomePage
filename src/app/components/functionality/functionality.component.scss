@@ -61,8 +61,6 @@
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.trade-nft-bg {
-}
 .trade-nft-bg-img {
   width: 80px;
   height: 100px;
@@ -194,6 +192,11 @@
   right: 140px;
 }
 
+.bg-jettons-12 {
+  top: -100%;
+  right: -100%;
+}
+
 .copy-trading {
   transform: translateY(200px);
   grid-column: 2/3;
@@ -207,6 +210,8 @@
   z-index: -1;
 }
 .bg-copy-trade {
+  width: 237px;
+  height: 220px;
   top: 18px;
   right: 35px;
 }
@@ -234,6 +239,115 @@
 @media (max-width: 630px) {
   .functionality__grid {
     grid-template-columns: repeat(1, minmax(280px, 980px));
-    grid-template-rows: repeat(4, minmax(280px, 350px));
+    grid-template-rows: repeat(4, 350px);
+  }
+  .bg-copy-trade {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bg-jettons-1 {
+    top: -18px;
+    right: 112px;
+  }
+  .bg-jettons-2 {
+    top: 12px;
+    right: 26px;
+  }
+  .bg-jettons-3 {
+    top: 38px;
+    right: -60px;
+  }
+  .bg-jettons-4 {
+    top: 56px;
+    right: 163px;
+  }
+  .bg-jettons-5 {
+    top: 91px;
+    right: 67px;
+  }
+  .bg-jettons-6 {
+    top: 127px;
+    right: -27px;
+  }
+  .bg-jettons-7 {
+    top: 140px;
+    right: 194px;
+  }
+  .bg-jettons-8 {
+    top: 176px;
+    right: 98px;
+  }
+  .bg-jettons-9 {
+    top: 211px;
+    right: -3px;
+  }
+  .bg-jettons-10 {
+    top: 225px;
+    right: 225px;
+  }
+  .bg-jettons-11 {
+    top: 260px;
+    right: 130px;
+  }
+  .bg-jettons-12 {
+    top: 290px;
+    right: 25px;
+  }
+}
+
+@media (max-width: 430px) {
+  .functionality__grid {
+    grid-template-rows: repeat(4, 390px);
+  }
+
+  .bg-jettons-1 {
+    top: 12px;
+    right: 122px;
+  }
+  .bg-jettons-2 {
+    top: 42px;
+    right: 36px;
+  }
+  .bg-jettons-3 {
+    top: 68px;
+    right: -50px;
+  }
+  .bg-jettons-4 {
+    top: 86px;
+    right: 173px;
+  }
+  .bg-jettons-5 {
+    top: 121px;
+    right: 77px;
+  }
+  .bg-jettons-6 {
+    top: 157px;
+    right: -17px;
+  }
+  .bg-jettons-7 {
+    top: 170px;
+    right: 204px;
+  }
+  .bg-jettons-8 {
+    top: 206px;
+    right: 108px;
+  }
+  .bg-jettons-9 {
+    top: 241px;
+    right: 7px;
+  }
+  .bg-jettons-10 {
+    top: 255px;
+    right: 235px;
+  }
+  .bg-jettons-11 {
+    top: 290px;
+    right: 140px;
+  }
+  .bg-jettons-12 {
+    top: 320px;
+    right: 35px;
   }
 }
