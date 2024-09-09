@@ -45,6 +45,10 @@
   @include Montserrat(16px, 400);
 }
 
+.M-r-20 {
+  @include Montserrat(20px, 400);
+}
+
 .M-r-24 {
   @include Montserrat(24px, 400);
 }
@@ -67,6 +71,10 @@
 }
 
 .S-r-52 {
+  @include Spongition(52px, 400, 90%);
+}
+
+.S-r-52-a {
   @include Spongition(52px, 400, 90%);
 }
 
@@ -162,6 +170,10 @@
     font-style: italic;
   }
 
+  .M-r-20 {
+    @include Montserrat(18px, 400);
+  }
+
   .M-b-28 {
     @include Montserrat(20px, 600);
   }
@@ -180,5 +192,9 @@
   .h3-u,
   .h3-u span {
     @include Spongition(38px, 400, 90%, $upcase: true);
+  }
+
+  .S-r-52-a {
+    @include Spongition(44px, 400, 90%);
   }
 }
