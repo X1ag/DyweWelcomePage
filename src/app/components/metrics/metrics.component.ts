@@ -25,7 +25,6 @@ export class MetricsComponent implements AfterViewInit {
           trigger: '.metrics',
           start: 'top 90%',
           end: 'top 80%',
-          scrub: 1,
         },
       });
       gsap.to('.metric__card', {
@@ -36,7 +35,6 @@ export class MetricsComponent implements AfterViewInit {
           trigger: '.metrics',
           start: 'top 70%',
           end: 'top 60%',
-          scrub: 1,
         },
       });
     }

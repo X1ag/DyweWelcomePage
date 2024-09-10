@@ -25,7 +25,6 @@ export class FaqComponent implements AfterViewInit {
           trigger: '.faq',
           start: 'top 80%',
           end: 'top 70%',
-          scrub: 1,
         },
       });
 
@@ -37,7 +36,6 @@ export class FaqComponent implements AfterViewInit {
           trigger: '.faq',
           start: 'top 60%',
           end: 'top 50%',
-          scrub: 1,
         },
       });
 
@@ -45,12 +43,11 @@ export class FaqComponent implements AfterViewInit {
         x: '0px',
         opacity: 1,
         duration: 0.7,
-        ease: 'power1.inOut', // Плавное начало и завершение анимации
+        ease: 'power1.inOut',
         scrollTrigger: {
           trigger: '.faq',
           start: 'top 80%',
           end: 'top 70%',
-          scrub: 1,
         },
       });
     }

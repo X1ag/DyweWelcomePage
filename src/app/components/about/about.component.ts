@@ -24,7 +24,6 @@ export class AboutComponent implements AfterViewInit {
           trigger: '.about',
           start: 'top 90%',
           end: 'top 80%',
-          scrub: 1,
         },
       });
       gsap.to('.about__grid', {
@@ -36,7 +35,6 @@ export class AboutComponent implements AfterViewInit {
           trigger: '.about',
           start: 'top 90%',
           end: 'top 85%',
-          scrub: 1,
         },
       });
     }

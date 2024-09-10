@@ -5,13 +5,16 @@
     text-align: center;
   }
   &__grid {
+    transform: translateY(100px);
     display: grid;
     grid-template-columns: repeat(2, minmax(480px, 680px));
     grid-template-rows: repeat(2, 260px);
-    gap: 20px;
+    gap: 30px;
   }
   &__card {
+    cursor: pointer;
     position: relative;
+    transition: all 0.7s ease-in-out;
 
     overflow: hidden;
     border: 1px solid var(--border2-color);
@@ -21,6 +24,10 @@
       display: flex;
       flex-direction: column;
       gap: 12px;
+    }
+
+    &:hover {
+      transform: scale(1.02);
     }
   }
 }
@@ -48,16 +55,7 @@
   transform: translate(-50%, -50%);
 }
 
-.trade-nft,
-.trade-jettons,
-.liqud,
-.copy-trading {
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
 .trade-nft {
-  transform: translateY(50px);
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -94,7 +92,6 @@
 }
 
 .liqud {
-  transform: translateY(100px);
   grid-column: 2/3;
   grid-row: 1/2;
 }
@@ -124,8 +121,7 @@
   filter: blur(2px);
 }
 
-.trade-jettons {
-  transform: translateY(150px);
+.liqud {
   grid-column: 1/2;
   grid-row: 2/3;
 }
@@ -198,7 +194,6 @@
 }
 
 .copy-trading {
-  transform: translateY(200px);
   grid-column: 2/3;
   grid-row: 2/3;
 }
@@ -242,58 +237,58 @@
     grid-template-rows: repeat(4, 350px);
   }
   .bg-copy-trade {
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
   }
 
   .bg-jettons-1 {
-    top: -18px;
-    right: 112px;
+    top: 62px;
+    right: 162px;
   }
   .bg-jettons-2 {
-    top: 12px;
-    right: 26px;
+    top: 92px;
+    right: 76px;
   }
   .bg-jettons-3 {
-    top: 38px;
-    right: -60px;
+    top: 118px;
+    right: -10px;
   }
   .bg-jettons-4 {
-    top: 56px;
-    right: 163px;
+    top: 136px;
+    right: 213px;
   }
   .bg-jettons-5 {
-    top: 91px;
-    right: 67px;
+    top: 171px;
+    right: 117px;
   }
   .bg-jettons-6 {
-    top: 127px;
-    right: -27px;
+    top: 207px;
+    right: 23px;
   }
   .bg-jettons-7 {
-    top: 140px;
-    right: 194px;
+    top: 220px;
+    right: 244px;
   }
   .bg-jettons-8 {
-    top: 176px;
-    right: 98px;
+    top: 256px;
+    right: 148px;
   }
   .bg-jettons-9 {
-    top: 211px;
-    right: -3px;
+    top: 291px;
+    right: 47px;
   }
   .bg-jettons-10 {
-    top: 225px;
-    right: 225px;
+    top: 305px;
+    right: 275px;
   }
   .bg-jettons-11 {
-    top: 260px;
-    right: 130px;
+    top: 340px;
+    right: 180px;
   }
   .bg-jettons-12 {
-    top: 290px;
-    right: 25px;
+    top: 370px;
+    right: 75px;
   }
 }
 
@@ -301,53 +296,40 @@
   .functionality__grid {
     grid-template-rows: repeat(4, 390px);
   }
-
   .bg-jettons-1 {
-    top: 12px;
     right: 122px;
   }
   .bg-jettons-2 {
-    top: 42px;
     right: 36px;
   }
   .bg-jettons-3 {
-    top: 68px;
     right: -50px;
   }
   .bg-jettons-4 {
-    top: 86px;
     right: 173px;
   }
   .bg-jettons-5 {
-    top: 121px;
     right: 77px;
   }
   .bg-jettons-6 {
-    top: 157px;
     right: -17px;
   }
   .bg-jettons-7 {
-    top: 170px;
     right: 204px;
   }
   .bg-jettons-8 {
-    top: 206px;
     right: 108px;
   }
   .bg-jettons-9 {
-    top: 241px;
     right: 7px;
   }
   .bg-jettons-10 {
-    top: 255px;
     right: 235px;
   }
   .bg-jettons-11 {
-    top: 290px;
     right: 140px;
   }
   .bg-jettons-12 {
-    top: 320px;
     right: 35px;
   }
 }

@@ -24,18 +24,16 @@ export class FunctionalityComponent {
           trigger: '.functionality',
           start: 'top 90%',
           end: 'top 80%',
-          scrub: 1,
         },
       });
-      gsap.to(['.trade-nft', '.liqud', '.trade-jettons', '.copy-trading'], {
+      gsap.to('.functionality__grid', {
         y: '0px',
         opacity: '1',
-        duration: 3,
+        duration: 0.7,
         scrollTrigger: {
           trigger: '.functionality',
           start: 'top 65%',
           end: 'top 55%',
-          scrub: 1,
         },
       });
     }

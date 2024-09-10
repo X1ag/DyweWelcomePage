@@ -34,7 +34,6 @@ export class RoadmapComponent {
           trigger: '.roadmap',
           start: 'top 85%',
           end: 'top 75%',
-          scrub: 1,
         },
       });
       gsap.to('.roadmap__container', {
@@ -45,7 +44,6 @@ export class RoadmapComponent {
           trigger: '.roadmap',
           start: 'top 70%',
           end: 'top 60%',
-          scrub: 1,
         },
       });
       gsap.to('.roadmap__item', {
@@ -57,7 +55,6 @@ export class RoadmapComponent {
           trigger: '.roadmap',
           start: 'top 70%',
           end: 'top 100%',
-          scrub: 1,
         },
       });
     }
