@@ -165,6 +165,10 @@
     @include Spongition(36px, 400, 90%);
   }
 
+  .S-r-52-a {
+    @include Spongition(52px, 400, 110%);
+  }
+
   .M-bi-24 {
     @include Montserrat(20px, 600);
     font-style: italic;
@@ -195,6 +199,6 @@
   }
 
   .S-r-52-a {
-    @include Spongition(44px, 400, 90%);
+    @include Spongition(44px, 400, 110%);
   }
 }
